@@ -14,7 +14,7 @@ function App() {
 
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Bits Please</h1>
+          <h1 className="neonText">Bits Please</h1>
           <ul>
             <li ><Link className="App-link" to="/">Home</Link></li>
             <li > <Link className="App-link" to="/about">Shop</Link></li>
