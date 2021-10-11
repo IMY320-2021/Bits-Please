@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,19 +16,6 @@
   text-align: center;
   color: white;
   font-size: 60px;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500");
@@ -57,52 +33,83 @@ li {
 }
 
 a {
-  text-decoration: none;
   position: relative;
-  display: block;
-  padding: 16px 0;
-  margin: 0 12px;
-  font-size: 1.2rem;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
   text-transform: uppercase;
-  transition: color 0.1s, background-color 0.1s;
-  color: #000;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 40px;
+  overflow: hidden;
+  transition: 0.2s;
 }
+
 a:hover {
-  color: #4dd0e1;
-}
-a:focus,
-a:active {
-  color: #00bcd4;
+  color: #fff;
+  background: #bc13fe;
+  box-shadow: 0 0 10px #bc13fe, 0 0 40px #bc13fe, 0 0 80px #bc13fe;
+  transition-delay: 1s;
 }
 
-a::before {
-  content: "";
-  display: block;
+a span {
   position: absolute;
-  top: 100%;
-  height: 3px;
+  display: block;
+}
+
+a span:nth-child(1) {
+  top: 0;
+  left: -100%;
   width: 100%;
-  background-color: #00bcd4;
-  -webkit-transform-origin: center top;
-  transform-origin: center top;
-  -webkit-transform: scale(0, 1);
-  transform: scale(0, 1);
-  transition: color 0.1s, -webkit-transform 0.2s ease-out;
-  transition: color 0.1s, transform 0.2s ease-out;
-  transition: color 0.1s, transform 0.2s ease-out,
-    -webkit-transform 0.2s ease-out;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #bc13fe);
 }
 
-a:active::before {
-  background-color: #00bcd4;
+a:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
 }
 
-a:hover::before,
-a:focus::before {
-  -webkit-transform-origin: center top;
-  transform-origin: center top;
-  -webkit-transform: scale(1, 1);
-  transform: scale(1, 1);
+a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #bc13fe);
+}
+
+a:hover span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #bc13fe);
+}
+
+a:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #bc13fe);
+}
+
+a:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
 }
 
 .neonText {
@@ -122,7 +129,6 @@ h1 {
   animation: pulsate 2s infinite alternate;
   /* border: 0.2rem solid #fff; */
   /* border-radius: 2rem; */
-  padding: 0.4em;
   /* box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
     0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe; */
 }

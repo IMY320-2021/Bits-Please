@@ -16,11 +16,51 @@ function App() {
         <header className="App-header">
           <h1 className="neonText">Bits Please</h1>
           <ul>
-            <li ><Link className="App-link" to="/">Home</Link></li>
-            <li > <Link className="App-link" to="/about">Shop</Link></li>
-            <li > <Link className="App-link" to="/about">About Us</Link></li>
-            <li > <Link className="App-link" to="/about">Our team</Link></li>
-            <li > <Link className="App-link" to="/about">Contact us</Link></li>
+            <li >
+              <a to="/">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Home
+              </a>
+            </li>
+            <li >
+              <a to="/about">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Shop
+              </a>
+            </li>
+            <li >
+              <a to="/about">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                About Us
+              </a>
+            </li>
+            <li >
+              <a to="/about">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Our team
+              </a>
+            </li>
+            <li >
+              <a to="/about">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Contact us
+              </a>
+            </li>
           </ul>
         </header>
 
