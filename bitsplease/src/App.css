@@ -67,7 +67,7 @@ a span:nth-child(1) {
 
 a:hover span:nth-child(1) {
   left: 100%;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 a span:nth-child(3) {
@@ -80,7 +80,7 @@ a span:nth-child(3) {
 
 a:hover span:nth-child(3) {
   right: 100%;
-  transition: 1s;
+  transition: 0.7s;
   transition-delay: 0.5s;
 }
 
@@ -94,7 +94,7 @@ a span:nth-child(2) {
 
 a:hover span:nth-child(2) {
   top: 100%;
-  transition: 1s;
+  transition: 0.7s;
   transition-delay: 0.25s;
 }
 
@@ -108,7 +108,7 @@ a span:nth-child(4) {
 
 a:hover span:nth-child(4) {
   bottom: 100%;
-  transition: 1s;
+  transition: 0.7s;
   transition-delay: 0.75s;
 }
 
@@ -126,11 +126,15 @@ h2 {
 
 h1 {
   font-size: 6.2rem;
-  animation: pulsate 2s infinite alternate;
-  /* border: 0.2rem solid #fff; */
-  /* border-radius: 2rem; */
-  /* box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
-    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe; */
+}
+
+.border {
+  animation: pulsate 1s infinite alternate;
+  border: 0.2rem solid #fff;
+  border-radius: 6rem;
+  padding: 30px 300px;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
 }
 
 @keyframes pulsate {

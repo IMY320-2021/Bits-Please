@@ -14,54 +14,58 @@ function App() {
 
       <div className="App">
         <header className="App-header">
-          <h1 className="neonText">Bits Please</h1>
-          <ul>
-            <li >
-              <a to="/">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Home
-              </a>
-            </li>
-            <li >
-              <a to="/about">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Shop
-              </a>
-            </li>
-            <li >
-              <a to="/about">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                About Us
-              </a>
-            </li>
-            <li >
-              <a to="/about">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Our team
-              </a>
-            </li>
-            <li >
-              <a to="/about">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Contact us
-              </a>
-            </li>
-          </ul>
+          <div className="border">
+            <h1 className="neonText">Bits Please</h1>
+            <ul>
+              <li >
+                <a to="/">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Home
+                </a>
+              </li>
+              <li >
+                <a to="/about">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Shop
+                </a>
+              </li>
+              <li >
+                <a to="/about">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  About Us
+                </a>
+              </li>
+              <li >
+                <a to="/about">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Our team
+                </a>
+              </li>
+              <li >
+                <a to="/about">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Contact us
+                </a>
+              </li>
+            </ul>
+          </div>
+
+
         </header>
 
       </div>
