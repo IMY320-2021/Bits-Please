@@ -17,6 +17,11 @@ div.borderAU {
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
     0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
 }
+.ContactUsButton {
+  margin: 10px;
+  margin-top: 150px;
+  font-size: 70px;
+}
 
 ::-webkit-scrollbar {
   display: none;
@@ -31,9 +36,9 @@ div.borderAU {
 
 .Name {
   color: #fff;
-  text-align: left;
+  text-align: center;
   font-size: 35px;
-  margin: 25px ;
+  margin: 25px;
 }
 
 .Name:hover {
@@ -50,36 +55,44 @@ img.Img-Member {
 }
 
 div.Description {
-  text-align: right;
+  text-align: left;
   margin: 20px;
 }
 
 div.Skills {
+  margin: 40px;
+  padding: 20px;
+}
+.SkillsUL{
+  justify-content: center;
+  display: inline-block;
+}
+
+
+/* .ThirdLI{
+  margin-right: -285px;
+} */
+
+div.SkillsHeading {
+  text-align: justify;
+  text-decoration: underline;
+}
+
+.OurTeamListElements.ul.li {
+  display: table;
+  margin: 0px auto 0px auto;
+}
+
+div.Socials {
   text-align: center;
-  margin-right: 380px;
-}
-
-div.SkillsHeading{
-    text-decoration: underline;
-}
-
-SkillsUL.ul {
-  list-style-type: circle;
-  list-style-position: inside;
-  margin: 0;
-  padding: 0;
-}
-
-div.Socials{
-    text-align: center;
-    margin: 20px;
+  margin: 20px;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff ;
-  }
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
