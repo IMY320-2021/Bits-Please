@@ -1,34 +1,47 @@
 .card {
-  background-color: rebeccapurple;
+  background-color: #343a44;
+  border-radius: 0.4rem;
   display: grid;
   grid-template-columns: 40% 60%;
   padding: 1rem;
+  height: 100%;
+
+  box-shadow: 0px 3px 10px #00000029;
 }
 
 .card-header {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .card-body {
-  background-color: cadetblue;
+  padding-left: 1rem;
 }
 
 .card-image {
-  background-color: chocolate;
+  background-color: #000000;
+  max-height: 200px;
+  height: 100%;
 }
 
 .item-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 18px;
+  justify-content: space-between;
+  gap: 4px;
   align-items: center;
   list-style-type: none;
-  max-width: fit-content;
 }
 
 .item-list li {
-  background-color: black;
+  /* background-color: black; */
   width: 24px;
   height: 24px;
+}
+
+.btn {
+  border: none;
+  padding: 1rem 2rem;
+  background-color: rebeccapurple;
+  color: white;
+  font-weight: 700;
 }

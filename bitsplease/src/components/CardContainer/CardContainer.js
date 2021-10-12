@@ -9,10 +9,6 @@ class CardContainer extends React.Component {
             <div className='card-container'>
                 <StoreCard />
                 <StoreCard />
-                <StoreCard />
-                <StoreCard />
-                <StoreCard />
-                <StoreCard />
             </div>
         );
     }
