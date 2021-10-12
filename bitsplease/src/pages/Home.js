@@ -1,9 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 import {
     Link
 } from "react-router-dom";
 import '../App.css';
-import Projects from '../pages/Projects'
 
 export default function Home() {
     return (
@@ -17,7 +16,7 @@ export default function Home() {
                             <Link style={{
                                 color: "#fff"
                             }}
-                                to="/projects">
+                                to="/Projects">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -29,7 +28,7 @@ export default function Home() {
                             <Link style={{
                                 color: "#fff"
                             }}
-                                to="/projects">
+                                to="/Shop">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -41,7 +40,7 @@ export default function Home() {
                             <Link style={{
                                 color: "#fff"
                             }}
-                                to="/projects">
+                                to="/AboutUs">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -53,7 +52,7 @@ export default function Home() {
                             <Link style={{
                                 color: "#fff"
                             }}
-                                to="/projects">
+                                to="/OurTeam">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -65,7 +64,7 @@ export default function Home() {
                             <Link style={{
                                 color: "#fff"
                             }}
-                                to="/projects">
+                                to="/ContactUs">
                                 <span></span>
                                 <span></span>
                                 <span></span>

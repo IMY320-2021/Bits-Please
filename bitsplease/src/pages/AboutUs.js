@@ -1,11 +1,11 @@
 import React from "react";
 import '../App.css';
 
-export default function Projects() {
+export default function AboutUs() {
     return (
         <div className="App">
             <header className="App-header">
-                <p>Temp projects page</p>
+                <p>Temp AboutUs page</p>
             </header>
         </div>
     );
