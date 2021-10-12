@@ -1,9 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 import {
     Link
 } from "react-router-dom";
 import '../App.css';
-import Projects from '../pages/Projects'
 
 export default function Home() {
     return (
