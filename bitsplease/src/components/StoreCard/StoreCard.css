@@ -1,0 +1,34 @@
+.card {
+  background-color: rebeccapurple;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 1rem;
+}
+
+.card-header {
+  background-color: aquamarine;
+}
+
+.card-body {
+  background-color: cadetblue;
+}
+
+.card-image {
+  background-color: chocolate;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 18px;
+  align-items: center;
+  list-style-type: none;
+  max-width: fit-content;
+}
+
+.item-list li {
+  background-color: black;
+  width: 24px;
+  height: 24px;
+}
