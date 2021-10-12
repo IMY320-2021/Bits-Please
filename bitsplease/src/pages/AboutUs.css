@@ -1,0 +1,85 @@
+div.Textbox {
+  position: relative;
+  border-radius: 5rem;
+  margin: 30px;
+}
+
+div.borderAU {
+  margin: 5px;
+  padding: 5px;
+  overflow: auto;
+  text-align: justify;
+  border: 0.2rem solid #fff;
+  border-radius: 6rem;
+  width: 95%;
+  max-height: 80vh;
+  padding: 20px 0px;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.MainContainer {
+  padding: 20px;
+}
+
+.MemberInfo {
+  margin: 15px;
+}
+
+.Name {
+  color: #fff;
+  text-align: left;
+  font-size: 35px;
+  margin: 25px ;
+}
+
+.Name:hover {
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #bc13fe,
+    0 0 82px #bc13fe, 0 0 92px #bc13fe, 0 0 102px #bc13fe, 0 0 151px #bc13fe;
+}
+
+img.Img-Member {
+  float: left;
+  border-radius: 20px;
+  width: 300px;
+  height: 250px;
+  margin: 25px;
+}
+
+div.Description {
+  text-align: right;
+  margin: 20px;
+}
+
+div.Skills {
+  text-align: center;
+  margin-right: 380px;
+}
+
+div.SkillsHeading{
+    text-decoration: underline;
+}
+
+SkillsUL.ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+div.Socials{
+    text-align: center;
+    margin: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff ;
+  }
