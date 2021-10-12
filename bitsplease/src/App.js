@@ -24,7 +24,7 @@ function App() {
                   <span></span>
                   <span></span>
                   <span></span>
-                  Home
+                  Projects
                 </a>
               </li>
               <li >
@@ -79,7 +79,7 @@ function App() {
           <About />
         </Route>
         <Route path="/">
-          <Home />
+          <Projects />
         </Route>
       </Switch>
     </Router>
@@ -87,8 +87,8 @@ function App() {
 }
 
 
-function Home() {
-  return <h2>Home</h2>;
+function Projects() {
+  return <h2>Projects</h2>;
 }
 
 function About() {
