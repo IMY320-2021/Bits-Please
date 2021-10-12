@@ -48,7 +48,10 @@ h1{
 	height: 600px;
 	margin: 60px;
 	margin-left: 150px;
-	display: inline-flex;
+}
+.wrapper{
+	display: flex;
+	width: 500vw;
 }
 html{
 	scroll-behavior: smooth;
