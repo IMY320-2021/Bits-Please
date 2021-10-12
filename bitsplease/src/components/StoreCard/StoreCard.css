@@ -3,8 +3,10 @@
   border-radius: 0.4rem;
   display: grid;
   grid-template-columns: 40% 60%;
-  padding: 1rem;
+  padding: 0.2rem 1rem;
   height: 100%;
+
+  text-align: left;
 
   box-shadow: 0px 3px 10px #00000029;
 }
@@ -14,7 +16,7 @@
 }
 
 .card-body {
-  padding-left: 1rem;
+  padding: 1rem;
 }
 
 .card-image {
@@ -44,4 +46,16 @@
   background-color: rebeccapurple;
   color: white;
   font-weight: 700;
+  font-size: 24px;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+h2.price-heading {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0;
 }
