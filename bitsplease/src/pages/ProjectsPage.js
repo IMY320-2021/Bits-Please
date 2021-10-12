@@ -1,3 +1,6 @@
+import React from "react";
+import './Projects.css';
+
 function ProjectsPage() {
   return (
     <div className="App">
