@@ -29,14 +29,13 @@ ul {
 }
 
 li {
-  padding: 0px 0 20px;
+  padding: 0px 0 0px;
 }
 
 a {
   position: relative;
   display: inline-block;
   padding: 15px 30px;
-  color: #fff;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
@@ -49,7 +48,7 @@ a:hover {
   color: #fff;
   background: #bc13fe;
   box-shadow: 0 0 10px #bc13fe, 0 0 40px #bc13fe, 0 0 80px #bc13fe;
-  transition-delay: 1s;
+  transition-delay: 0.9s;
 }
 
 a span {
@@ -126,13 +125,16 @@ h2 {
 
 h1 {
   font-size: 6.2rem;
+  animation: pulsate 1s infinite alternate;
 }
 
 .border {
-  animation: pulsate 1s infinite alternate;
   border: 0.2rem solid #fff;
   border-radius: 6rem;
-  padding: 30px 300px;
+  width: 95%;
+  height: 80vh;
+  padding: 20px 0px;
+  margin: 50px 60px;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
     0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
 }

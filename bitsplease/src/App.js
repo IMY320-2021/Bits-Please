@@ -16,6 +16,7 @@ function App() {
         <header className="App-header">
           <div className="border">
             <h1 className="neonText">Bits Please</h1>
+
             <ul>
               <li >
                 <a to="/">
@@ -64,6 +65,8 @@ function App() {
               </li>
             </ul>
           </div>
+
+
 
 
         </header>
