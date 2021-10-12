@@ -6,7 +6,9 @@ export default function Shop() {
     return (
         <div className="App">
             <header className="App-header">
-                <CardContainer />
+                <div className="border">
+                    <CardContainer />
+                </div>
             </header>
         </div>
     );
