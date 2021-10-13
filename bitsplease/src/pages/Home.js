@@ -3,12 +3,18 @@ import {
     Link
 } from "react-router-dom";
 import '../App.css';
+import sample from '../assets/DataVideo.mp4';
 
 export default function Home() {
     return (
         <div className="App">
             <header className="App-header">
                 <div className="border">
+
+                    {/* <video autoPlay loop muted id='video'>
+                        <source src={sample} type='video/mp4' />
+                    </video> */}
+
                     <h1 className="neonText">Bits Please</h1>
 
                     <ul>

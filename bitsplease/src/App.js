@@ -1,21 +1,16 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import './App.css';
-import Home from './pages/Home'
-import Projects from './pages/Projects'
-import Shop from './pages/Shop'
-import AboutUs from './pages/AboutUs'
-import OurTeam from './pages/OurTeam'
-import ContactUs from './pages/ContactUs'
-
+import "./App.css";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Shop from "./pages/Shop";
+import AboutUs from "./pages/AboutUs";
+import OurTeam from "./pages/OurTeam";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
       <Switch>
