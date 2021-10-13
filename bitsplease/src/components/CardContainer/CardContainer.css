@@ -1,8 +1,8 @@
 .card-container {
   padding: 4rem;
   display: grid;
-  column-gap: 3rem;
-  row-gap: 5rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
   max-width: 1496px;
 
