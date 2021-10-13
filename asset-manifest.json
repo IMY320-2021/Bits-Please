@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Bits-Please/static/css/main.12b34ff4.chunk.css",
-    "main.js": "/Bits-Please/static/js/main.c8c510fe.chunk.js",
-    "main.js.map": "/Bits-Please/static/js/main.c8c510fe.chunk.js.map",
+    "main.css": "/Bits-Please/static/css/main.a5ff54df.chunk.css",
+    "main.js": "/Bits-Please/static/js/main.81f447f4.chunk.js",
+    "main.js.map": "/Bits-Please/static/js/main.81f447f4.chunk.js.map",
     "runtime-main.js": "/Bits-Please/static/js/runtime-main.c87ea602.js",
     "runtime-main.js.map": "/Bits-Please/static/js/runtime-main.c87ea602.js.map",
     "static/js/2.abadded1.chunk.js": "/Bits-Please/static/js/2.abadded1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.42a31e66.chunk.js": "/Bits-Please/static/js/3.42a31e66.chunk.js",
     "static/js/3.42a31e66.chunk.js.map": "/Bits-Please/static/js/3.42a31e66.chunk.js.map",
     "index.html": "/Bits-Please/index.html",
-    "static/css/main.12b34ff4.chunk.css.map": "/Bits-Please/static/css/main.12b34ff4.chunk.css.map",
+    "static/css/main.a5ff54df.chunk.css.map": "/Bits-Please/static/css/main.a5ff54df.chunk.css.map",
     "static/js/2.abadded1.chunk.js.LICENSE.txt": "/Bits-Please/static/js/2.abadded1.chunk.js.LICENSE.txt",
     "static/media/Chanel.08e08aa9.jpg": "/Bits-Please/static/media/Chanel.08e08aa9.jpg",
     "static/media/Christoff.24b04f40.jpg": "/Bits-Please/static/media/Christoff.24b04f40.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.c87ea602.js",
     "static/js/2.abadded1.chunk.js",
-    "static/css/main.12b34ff4.chunk.css",
-    "static/js/main.c8c510fe.chunk.js"
+    "static/css/main.a5ff54df.chunk.css",
+    "static/js/main.81f447f4.chunk.js"
   ]
 }
