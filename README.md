@@ -1,6 +1,9 @@
 # Bits-Please
 An ecommerce’s website for our self-made content creation company.
 
+## Link to hosted website
+[https://imy320-2021.github.io/Bits-Please/](https://imy320-2021.github.io/Bits-Please/)
+
 ## Code Style Guide
 ### File Naming
 For all files and classes, use `PascalCase`.
