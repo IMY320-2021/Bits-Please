@@ -2,6 +2,7 @@ import React from 'react';
 import './StoreCard.css';
 import '../../index.css';
 import CustomRadioGroup from '../CustomRadioGroup/CustomRadioGroup';
+import Mug from '../../assets/mug.jpg';
 
 class StoreCard extends React.Component {
     render() {
@@ -11,7 +12,7 @@ class StoreCard extends React.Component {
             <div className='card'>
                 <div className='card-header'>
                     <div className='card-image'>
-                        <img srcSet={data.image_url[0]} alt={data.description} />
+                        <img srcSet={Mug} alt={data.description} />
                     </div>
                 </div>
 
