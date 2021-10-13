@@ -1,17 +1,12 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import './App.css';
-import Home from './pages/Home'
-import Projects from './pages/Projects'
-import Shop from './pages/Shop'
-import AboutUs from './pages/AboutUs'
-import OurTeam from './pages/OurTeam'
-import ContactUs from './pages/ContactUs'
-
+import "./App.css";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Shop from "./pages/Shop";
+import AboutUs from "./pages/AboutUs";
+import OurTeam from "./pages/OurTeam";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (

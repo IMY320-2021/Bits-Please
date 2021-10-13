@@ -1,0 +1,98 @@
+div.Textbox {
+  position: relative;
+  border-radius: 5rem;
+  margin: 30px;
+}
+
+div.borderAU {
+  margin: 5px;
+  padding: 5px;
+  overflow: auto;
+  text-align: justify;
+  border: 0.2rem solid #fff;
+  border-radius: 6rem;
+  width: 95%;
+  max-height: 80vh;
+  padding: 20px 0px;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+.ContactUsButton {
+  margin: 10px;
+  margin-top: 150px;
+  font-size: 70px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.MainContainer {
+  padding: 20px;
+}
+
+.MemberInfo {
+  margin: 15px;
+}
+
+.Name {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  margin: 25px;
+}
+
+.Name:hover {
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #bc13fe,
+    0 0 82px #bc13fe, 0 0 92px #bc13fe, 0 0 102px #bc13fe, 0 0 151px #bc13fe;
+}
+
+img.Img-Member {
+  float: left;
+  border-radius: 20px;
+  width: 300px;
+  height: 250px;
+  margin: 25px;
+}
+
+div.Description {
+  text-align: left;
+  margin: 20px;
+}
+
+div.Skills {
+  margin: 40px;
+  padding: 20px;
+}
+.SkillsUL{
+  justify-content: center;
+  display: inline-block;
+}
+
+
+/* .ThirdLI{
+  margin-right: -285px;
+} */
+
+div.SkillsHeading {
+  text-align: justify;
+  text-decoration: underline;
+}
+
+.OurTeamListElements.ul.li {
+  display: table;
+  margin: 0px auto 0px auto;
+}
+
+div.Socials {
+  text-align: center;
+  margin: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
