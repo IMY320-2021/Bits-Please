@@ -1,6 +1,8 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../pages/AboutUs.css";
 import "../App.css";
+import ContactUs from "./ContactUs";
 
 import { Link } from "react-router-dom";
 
@@ -22,7 +24,7 @@ export default function AboutUs() {
             </p>
           </div>
           <ul>
-            <li className="ContactUsButton">
+          <li className="ContactUsButton">
               <Link
                 style={{
                   color: "#fff",
