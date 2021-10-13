@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,17 +11,150 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-index: 9999; /* set this to something high*/
+}
+.App-title {
+  text-align: center;
+  color: white;
+  font-size: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 0px 0 0px;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 30px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #fff;
+  background: #bc13fe;
+  box-shadow: 0 0 10px #bc13fe, 0 0 40px #bc13fe, 0 0 80px #bc13fe;
+  transition-delay: 0.9s;
+}
+
+a span {
+  position: absolute;
+  display: block;
+}
+
+a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #bc13fe);
+}
+
+a:hover span:nth-child(1) {
+  left: 100%;
+  transition: 0.7s;
+}
+
+a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #bc13fe);
+}
+
+a:hover span:nth-child(3) {
+  right: 100%;
+  transition: 0.7s;
+  transition-delay: 0.5s;
+}
+
+a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #bc13fe);
+}
+
+a:hover span:nth-child(2) {
+  top: 100%;
+  transition: 0.7s;
+  transition-delay: 0.25s;
+}
+
+a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #bc13fe);
+}
+
+a:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 0.7s;
+  transition-delay: 0.75s;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #bc13fe,
+    0 0 82px #bc13fe, 0 0 92px #bc13fe, 0 0 102px #bc13fe, 0 0 151px #bc13fe;
+}
+
+h1,
+h2 {
+  z-index: 2;
+  text-align: center;
+  font-weight: 400;
+}
+
+h1 .neonText{
+  font-size: 6.2rem;
+  animation: pulsate 1s infinite alternate;
+}
+
+.border {
+  border: 0.2rem solid #fff;
+  border-radius: 6rem;
+  width: 95%;
+  height: 80vh;
+  padding: 20px 0px;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+
+@keyframes pulsate {
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #bc13fe,
+      0 0 80px #bc13fe, 0 0 90px #bc13fe, 0 0 100px #bc13fe, 0 0 150px #bc13fe;
   }
-  to {
-    transform: rotate(360deg);
+
+  0% {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #bc13fe,
+      0 0 45px #bc13fe, 0 0 55px #bc13fe, 0 0 70px #bc13fe, 0 0 80px #bc13fe;
   }
 }
+/* 
+#video {
+  position: fixed;
+  z-index: 0;
+  width: 10%;
+  height: 10%;
+} */

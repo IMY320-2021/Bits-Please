@@ -1,0 +1,92 @@
+:root {
+  --radius-xs: 0.2rem;
+  --radius-s: 0.4rem;
+  --radius-m: 0.8rem;
+  --radius-l: 1rem;
+  --radius-xl: 1.4rem;
+
+  --spacing-px: '1px';
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-7: 1.6875rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-11: 2.625rem;
+  --spacing-12: 2.714rem;
+  --spacing-13: 3rem;
+  --spacing-14: 3.398rem;
+  --spacing-16: 4rem;
+  --spacing-18: 4.286rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+  --spacing-32: 8rem;
+  --spacing-42: 10rem;
+}
+
+.card {
+  background-color: #343a44;
+  border-radius: var(--radius-xs);
+  display: grid;
+  grid-template-columns: 40% 60%;
+
+  height: 100%;
+  text-align: left;
+  box-shadow: 0px 3px 10px #00000029;
+}
+
+.card-body {
+  padding: var(--spacing-0) var(--spacing-8);
+  margin-left: var(--spacing-4);
+  margin-bottom: var(--spacing-6);
+}
+
+.card-image {
+  width: 100%;
+  padding: var(--spacing-4);
+  border-radius: var(--radius-xs);
+}
+
+.card-image img {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: var(--radius-xs);
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.item-list li {
+  width: 24px;
+  height: 24px;
+}
+
+.btn {
+  border: none;
+  padding: var(--spacing-4) var(--spacing-6);
+  background-color: rebeccapurple;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+h2.price-heading {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0;
+}

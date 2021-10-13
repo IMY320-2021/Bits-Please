@@ -1,0 +1,9 @@
+.custom-radio-input {
+  width: 48px;
+  height: 48px;
+  transition: all 0.3s;
+}
+
+.custom-radio-input:hover {
+  cursor: pointer;
+}
