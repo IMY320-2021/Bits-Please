@@ -3,6 +3,10 @@ import "../pages/AboutUs.css";
 import "../App.css";
 
 import { Link } from "react-router-dom";
+import Christoff from '../assets/Christoff.jpg';
+import Chanel from '../assets/Chanel.jpg';
+import Jd from '../assets/Jd.jpg';
+import Gerard from '../assets/Gerard.jpg';
 
 export default function OurTeam() {
   return (
@@ -17,7 +21,7 @@ export default function OurTeam() {
               <div className="Image">
                 <img
                   className="Img-Member"
-                  src={`${process.env.PUBLIC_URL}/Images/Christoff.jpg`}
+                  src={Christoff}
                   alt="logo"
                 />
               </div>
@@ -67,7 +71,7 @@ export default function OurTeam() {
               <div className="Image">
                 <img
                   className="Img-Member"
-                  src={`${process.env.PUBLIC_URL}/Images/Chanel.jpg`}
+                  src={Chanel}
                   alt="logo"
                 />
               </div>
@@ -115,7 +119,7 @@ export default function OurTeam() {
               <div className="Image">
                 <img
                   className="Img-Member"
-                  src={`${process.env.PUBLIC_URL}/Images/Jd.jpg`}
+                  src={Jd}
                   alt="logo"
                 />
               </div>
@@ -170,7 +174,7 @@ export default function OurTeam() {
               <div className="Image">
                 <img
                   className="Img-Member"
-                  src={`${process.env.PUBLIC_URL}/Images/Gerard.jpg`}
+                  src={Gerard}
                   alt="logo"
                 />
               </div>
@@ -178,7 +182,7 @@ export default function OurTeam() {
               <div className="Description">
                 I am hard-working and energetic with a never-ending need to know
                 more. I enjoy software development and have a passion for
-                expressing my creativity through it. My ability to work well with others 
+                expressing my creativity through it. My ability to work well with others
                 helps to contribute to a positive working-environment.
 
               </div>
