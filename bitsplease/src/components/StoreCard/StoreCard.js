@@ -11,7 +11,7 @@ class StoreCard extends React.Component {
             <div className='card'>
                 <div className='card-header'>
                     <div className='card-image'>
-                        <h1>{ }</h1>
+                        <img srcSet={data.image_url[0]} alt={data.description} />
                     </div>
                 </div>
 
