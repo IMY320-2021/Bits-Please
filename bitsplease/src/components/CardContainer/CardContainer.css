@@ -8,3 +8,17 @@
 
   margin: 0 auto;
 }
+
+.border-overlay {
+  margin: 5px;
+  padding: 5px;
+  overflow: auto;
+  text-align: justify;
+  border: 0.2rem solid #fff;
+  border-radius: 6rem;
+  width: 95%;
+  max-height: 80vh;
+  padding: 20px 0px;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
