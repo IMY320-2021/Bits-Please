@@ -1,45 +1,40 @@
 import React from "react";
 import './Projects.css';
 
-function Projects() {
-    
+function ProjectsPage() {
   return (
     <div className="App">
       <header className="App-header">
-      
-          <div className="outerWrapper">
             <div className="wrapper">
-                <div className="project1">
+                <div className="project">
                     <button className="title"></button>
-                    <h1 className="titleNotGlow">Project 1</h1>
+                    <h1>Project 1</h1>
                     <button className="image"><img className='animate-left' src={"./" + 'car1.jpg'}></img></button> 
                 </div>
-                <div className="project2">
+                <div className="project">
+                    <button className="title"></button>
                     <button className="image"><img className='animate-right' src={"./" + 'car2.jpeg'}></img></button>
-                    <h1 className="titleNotGlow">Project 2</h1>
+                    <h1>Project 2</h1>
                 </div>
-                <div className="project3">
+                <div className="project">
+                    <button className="title"></button>
                     <button className="image"><img className='animate-right' src={"./" + 'car3.jpg'}></img></button>
-                    <h1 className="titleNotGlow">Project 3</h1>
+                    <h1>Project 3</h1>
                 </div>
-                <div className="project4">
+                <div className="project">
+                    <button className="title"></button>
                     <button className="image"><img className='animate-right' src={"./" + 'car4.jpg'}></img></button>
-                    <h1 className="titleNotGlow">Project 4</h1>
+                    <h1>Project 4</h1>
                 </div>
-                <div className="project5">
+                <div className="project">
+                    <button className="title"></button>
                     <button className="image"><img src={"./" + 'car5.jpg'}></img></button>
-                    <h1 className="titleNotGlow">Project 5</h1>
+                    <h1>Project 5</h1>
                 </div>
-                
             </div>
-            </div>
-            <div className="arrowBox">
-                <div className="arrow"></div>
-            </div>
-            <img className="Home" src={"./" + 'arrow_back_black_24dp.svg'}></img>
       </header>
     </div>
   );
 }
 
-export default Projects;
+export default ProjectsPage;

@@ -3,6 +3,7 @@ import {
     Link
 } from "react-router-dom";
 import '../App.css';
+import sample from '../assets/DataVideo.mp4';
 
 export default function Home() {
     return (

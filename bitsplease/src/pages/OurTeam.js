@@ -2,6 +2,8 @@ import React from "react";
 import "../pages/AboutUs.css";
 import "../App.css";
 
+import { Link } from "react-router-dom";
+
 export default function OurTeam() {
   return (
     <div className="App">
@@ -48,13 +50,13 @@ export default function OurTeam() {
                 <a
                   href="https://github.com/christoff-linde"
                   class="fa fa-github"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
                 ></a>
-                <a href="" class="fa fa-google" target="_blank"></a>
+                <a href="#" class="fa fa-google" target="_blank"></a>
                 <a
                   href="https://www.linkedin.com/in/christoff-linde/"
                   class="fa fa-linkedin"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
                 ></a>
               </div>
             </div>
@@ -96,13 +98,13 @@ export default function OurTeam() {
                 <a
                   href="https://github.com/ChanelMulder"
                   class="fa fa-github"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
                 ></a>
                 <a href="#" class="fa fa-google" target="_blank"></a>
                 <a
                   href="https://www.linkedin.com/in/chanel-mulder-7273a31bb/"
                   class="fa fa-linkedin"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
                 ></a>
               </div>
             </div>
@@ -147,17 +149,17 @@ export default function OurTeam() {
                 <a
                   href="https://github.com/JdPerumal"
                   class="fa fa-github"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
                 ></a>
                 <a
                   href="https://www.jdperumal.tech"
                   class="fa fa-google"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
                 ></a>
                 <a
                   href="https://www.linkedin.com/in/jd-perumal/"
                   class="fa fa-linkedin"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
                 ></a>
               </div>
             </div>
@@ -176,7 +178,7 @@ export default function OurTeam() {
               <div className="Description">
                 I am hard-working and energetic with a never-ending need to know
                 more. I enjoy software development and have a passion for
-                expressing my creativity through it. My ability to work well with others
+                expressing my creativity through it. My ability to work well with others 
                 helps to contribute to a positive working-environment.
 
               </div>
@@ -201,13 +203,13 @@ export default function OurTeam() {
                 <a
                   href="https://github.com/MaverickGDN0403"
                   class="fa fa-github"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
                 ></a>
                 <a href="#" class="fa fa-google" target="_blank"></a>
                 <a
                   href="https://www.linkedin.com/in/gerard-nagura-5308a217a/"
                   class="fa fa-linkedin"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
                 ></a>
               </div>
             </div>
