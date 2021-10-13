@@ -125,7 +125,7 @@ h2 {
   font-weight: 400;
 }
 
-h1 {
+h1 .neonText{
   font-size: 6.2rem;
   animation: pulsate 1s infinite alternate;
 }
