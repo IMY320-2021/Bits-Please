@@ -6,8 +6,7 @@ export default function Shop() {
     return (
         <div className="App">
             <header className="App-header">
-                <div className="overlay-border">
-                    <h1>Merch Shop</h1>
+                <div className="border">
                     <CardContainer />
                 </div>
             </header>
