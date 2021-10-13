@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Bits-Please/static/css/main.2deb5db3.chunk.css",
-    "main.js": "/Bits-Please/static/js/main.53b727a8.chunk.js",
-    "main.js.map": "/Bits-Please/static/js/main.53b727a8.chunk.js.map",
+    "main.css": "/Bits-Please/static/css/main.12b34ff4.chunk.css",
+    "main.js": "/Bits-Please/static/js/main.a45df309.chunk.js",
+    "main.js.map": "/Bits-Please/static/js/main.a45df309.chunk.js.map",
     "runtime-main.js": "/Bits-Please/static/js/runtime-main.c87ea602.js",
     "runtime-main.js.map": "/Bits-Please/static/js/runtime-main.c87ea602.js.map",
     "static/js/2.abadded1.chunk.js": "/Bits-Please/static/js/2.abadded1.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.42a31e66.chunk.js": "/Bits-Please/static/js/3.42a31e66.chunk.js",
     "static/js/3.42a31e66.chunk.js.map": "/Bits-Please/static/js/3.42a31e66.chunk.js.map",
     "index.html": "/Bits-Please/index.html",
-    "static/css/main.2deb5db3.chunk.css.map": "/Bits-Please/static/css/main.2deb5db3.chunk.css.map",
-    "static/js/2.abadded1.chunk.js.LICENSE.txt": "/Bits-Please/static/js/2.abadded1.chunk.js.LICENSE.txt"
+    "static/css/main.12b34ff4.chunk.css.map": "/Bits-Please/static/css/main.12b34ff4.chunk.css.map",
+    "static/js/2.abadded1.chunk.js.LICENSE.txt": "/Bits-Please/static/js/2.abadded1.chunk.js.LICENSE.txt",
+    "static/media/DataVideo.910e8a45.mp4": "/Bits-Please/static/media/DataVideo.910e8a45.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.c87ea602.js",
     "static/js/2.abadded1.chunk.js",
-    "static/css/main.2deb5db3.chunk.css",
-    "static/js/main.53b727a8.chunk.js"
+    "static/css/main.12b34ff4.chunk.css",
+    "static/js/main.a45df309.chunk.js"
   ]
 }
