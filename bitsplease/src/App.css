@@ -11,6 +11,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-index: 9999; /* set this to something high*/
 }
 .App-title {
   text-align: center;
@@ -119,6 +120,7 @@ a:hover span:nth-child(4) {
 
 h1,
 h2 {
+  z-index: 2;
   text-align: center;
   font-weight: 400;
 }
@@ -149,3 +151,10 @@ h1 {
       0 0 45px #bc13fe, 0 0 55px #bc13fe, 0 0 70px #bc13fe, 0 0 80px #bc13fe;
   }
 }
+/* 
+#video {
+  position: fixed;
+  z-index: 0;
+  width: 10%;
+  height: 10%;
+} */
